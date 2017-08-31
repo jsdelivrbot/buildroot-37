@@ -1,0 +1,7 @@
+--- host-gcc-final-arc-2017.03/gcc/configure.old	2017-08-31 19:50:19.514588126 +0300
++++ host-gcc-final-arc-2017.03/gcc/configure	2017-08-31 19:50:50.365413324 +0300
+@@ -8243,6 +8243,7 @@
+ else
+   BUILD_INFO=info
+ fi
++BUILD_INFO=

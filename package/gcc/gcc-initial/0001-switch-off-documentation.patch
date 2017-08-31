@@ -1,0 +1,11 @@
+--- gcc-initial/gcc/configure.old	2017-08-31 18:29:57.011452767 +0300
++++ gcc-initial/gcc/configure	2017-08-31 18:30:07.808398148 +0300
+@@ -8243,7 +8243,7 @@
+ else
+   BUILD_INFO=info
+ fi
+-
++BUILD_INFO=
+
+ # Is pod2man recent enough to regenerate manpages?
+ { $as_echo "$as_me:${as_lineno-$LINENO}: checking for recent Pod::Man" >&5
