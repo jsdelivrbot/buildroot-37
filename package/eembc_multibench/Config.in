@@ -1,5 +1,5 @@
 config BR2_PACKAGE_EEMBC_MULTIBENCH
         bool "eembc_multibench"
-        depends on BR2_PACKAGE_EXPECT 
+        depends on BR2_PACKAGE_EXPECT
         help
           https://gitsnps.internal.synopsys.com/abrodkin/eembc_multibench
