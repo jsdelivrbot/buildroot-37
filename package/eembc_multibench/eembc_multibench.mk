@@ -1,30 +1,10 @@
-# EEMBC_MULTIBENCH_VERSION = master
-# EEMBC_MULTIBENCH_SITE = git@gitsnps.internal.synopsys.com:abrodkin/eembc_multibench.git
-# EEMBC_MULTIBENCH_SITE_METHOD = git
-#
-#
-# TARGET_CONFIGURE_OPTS = \
-# 		'clean' \
-# 		'build' \
-# 		TARGET=linux \
-# 		TOOLCHAIN=arc_linux \
-# 		TOOLS=$(HOST_DIR)/usr
-#
-#
-# define EEMBC_MULTIBENCH_BUILD_CMDS
-#     # $(MAKE) $(TARGET_CONFIGURE_OPTS) -C $(@D)
-# 		@echo Hello $(TARGET_MAKE_ENV) $(MAKE) -C $(@D) DESTDIR="$(TARGET_DIR)" install
-# endef
-#
-# $(eval $(generic-package))
-
 #############################################################
 #
 # MultiBench
 #
 #############################################################
 EEMBC_MULTIBENCH_VERSION = master
-EEMBC_MULTIBENCH_SITE = git@gitsnps.internal.synopsys.com:abrodkin/eembc_multibench.git
+EEMBC_MULTIBENCH_SITE = git@gitsnps.internal.synopsys.com:arc_oss/eembc_multibench.git
 # EEMBC_MULTIBENCH_SITE = https://gitsnps.internal.synopsys.com/abrodkin/eembc_multibench/repository
 # EEMBC_MULTIBENCH_SOURCE = archive.tar.gz
 EEMBC_MULTIBENCH_SITE_METHOD = git
